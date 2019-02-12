@@ -25,7 +25,7 @@ class SecondActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.unaithorized).setOnClickListener {
             callUnauthorized.enqueue(Callback(App.serverManager) {
-                Log.w("DOONAMIS_CALL", "" + it);
+                Log.w("CALL", "" + it);
             })
         }
 
