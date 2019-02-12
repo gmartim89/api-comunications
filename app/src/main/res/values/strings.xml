@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CallExample</string>
+
+    <string name="message_code_450">Custom message for code 450</string>
+</resources>
